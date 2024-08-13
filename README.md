@@ -1,4 +1,5 @@
-<h2 align="center">Login & SignUp Website</h2>
+<p align="center"><img align="center" width="280" src="./images/logo-dark.png"/></p>
+<p align="center"><img align="center" width="280" src="./images/logo-light.png#gh-light-mode-only"/></p>
 <h3 align="center">A Simple and User-Friendly Platform for Seamless Authentication</h3>
 <hr>
 
@@ -8,7 +9,7 @@
 <img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/Login-SignUp-Website?&label=Pull%20requests&labelColor=302d41&color=ffb6c1&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/forks/amit712singhal/Login-SignUp-Website?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />
 <img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/Login-SignUp-Website?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/Login-SignUp-Website?label=LICENSE&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
+<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/login-signup-website?label=LICENSE&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
 <img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Login-SignUp-Website?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
 </div>
 
