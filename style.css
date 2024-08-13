@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('background.jpg') no-repeat;
+  background: url('images/background.jpg') no-repeat;
   background-size: cover;
   min-height: 100vh;
   background-position: center;
@@ -81,13 +81,13 @@ header {
 
 .navigation .btnLogin-popup:hover {
   background: #fff;
-  color: #162938;
+  color: #000;
 }
 
 .wrapper {
   position: relative;
   width: 400px;
-  height: 440px;
+  height: 400px;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
@@ -99,6 +99,7 @@ header {
   overflow: hidden;
   transform: scale(0);
   transition: transform .5s ease, height 0.2s ease;
+  z-index: 1;
 }
 
 .wrapper.active-popup {
@@ -106,7 +107,8 @@ header {
 }
 
 .wrapper.active {
-  height: 520px;
+  height: 480px;
+  margin-top: 30px;
 }
 
 .wrapper .form-box {
@@ -132,28 +134,12 @@ header {
 .wrapper.active .form-box.register {
   transition: transform 0.18s ease;
   transform: translateX(0);
-}
-
-.wrapper .icon-close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  background: #162938;
-  font-size: 1.5rem;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom-left-radius: 20px;
-  z-index: 1;
+  transform: translateY(10px);
 }
 
 .form-box h2 {
   font-size: 1.5rem;
-  color: #162938;
+  color: #fff;
   text-align: center;
 }
 
@@ -161,7 +147,7 @@ header {
   position: relative;
   width: 100%;
   height: 50px;
-  border-bottom: 2px solid #162938;
+  border-bottom: 2px solid #fff;
   margin: 30px 0;
 }
 
@@ -169,7 +155,7 @@ header {
   position: absolute;
   top: 50%;
   left: 5px;
-  color: #162938;
+  color: #fff;
   font-size: 1rem;
   pointer-events: none;
   transition: 0.5s;
@@ -182,7 +168,7 @@ header {
 .input-box input:valid~label {
   top: -5px;
   left: 5px;
-  color: #162938;
+  color: #ffffffb7;
   font-size: 0.8rem;
 }
 
@@ -193,7 +179,7 @@ header {
   border: none;
   outline: none;
   font-size: 1rem;
-  color: #162938;
+  color: #fff;
   font-weight: 600;
   padding: 0 35px 0 5px;
 }
@@ -203,14 +189,14 @@ header {
   top: 50%;
   right: 8px;
   transform: translateY(-50%);
-  color: #162938;
+  color: #ffffffb7;
   font-size: 1.2rem;
   line-height: 57px;
 }
 
 .remember-forgot {
   font-size: .9rem;
-  color: #162938;
+  color: #fff;
   font-weight: 500;
   margin: -15px 0 15px;
   display: flex;
@@ -218,23 +204,41 @@ header {
 }
 
 .remember-forgot label input {
-  accent-color: #162938;
+  accent-color: #161515;
   margin-right: 3px;
 }
 
 .remember-forgot a {
-  color: #162938;
+  color: #fff;
   text-decoration: none;
 }
 
 .remember-forgot a:hover {
+  color: #ffffffb7;
   text-decoration: underline;
+}
+
+.wrapper .icon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #0c0b0b;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  z-index: 2;
 }
 
 .btn {
   width: 100%;
   height: 45px;
-  background: #162938;
+  background: #0c0b0b;
   border: none;
   outline: none;
   border-radius: 6px;
@@ -242,20 +246,25 @@ header {
   font-size: 1.1rem;
   color: #fff;
   font-weight: 500;
-  margin: 20px 0;
+  margin: 10px 0;
   transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #131111;
+  color: #fff;
 }
 
 .login-register {
   font-size: .9rem;
-  color: #162938;
+  color: #fff;
   font-weight: 500;
   text-align: center;
-  margin: 25px 0 10px;
+  margin: 10px 0 10px;
 }
 
 .login-register p a {
-  color: #162938;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
 }
