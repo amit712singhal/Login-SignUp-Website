@@ -64,7 +64,7 @@ header {
   transition: transform 0.5s;
 }
 
-.navigation .btnLogin-popup {
+.navigation .login-btn {
   width: 130px;
   height: 50px;
   background: transparent;
@@ -79,15 +79,44 @@ header {
   transition: all 0.5s ease;
 }
 
-.navigation .btnLogin-popup:hover {
+.navigation .login-btn:hover {
   background: #fff;
   color: #000;
 }
 
+.navigation .signup-btn {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 10px;
+  transition: all 0.5s ease;
+}
+
+.navigation .signup-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* dim display behind popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  z-index: 999;
+}
+
 .wrapper {
-  position: relative;
-  width: 400px;
-  height: 400px;
+  position: fixed;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
@@ -97,13 +126,18 @@ header {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  transform: scale(0);
-  transition: transform .5s ease, height 0.2s ease;
-  z-index: 1;
+  z-index: 1000;
+  width: 80%;
+  max-width: 400px;
+  max-height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease, height 0.2s ease;
 }
 
 .wrapper.active-popup {
-  transform: scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .wrapper.active {
@@ -235,7 +269,7 @@ header {
   z-index: 2;
 }
 
-.btn {
+.submit-btn {
   width: 100%;
   height: 45px;
   background: #0c0b0b;
@@ -250,7 +284,7 @@ header {
   transition: all 0.5s ease;
 }
 
-.btn:hover {
+.submit-btn:hover {
   background: #131111;
   color: #fff;
 }
