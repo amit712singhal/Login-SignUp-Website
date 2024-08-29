@@ -19,7 +19,7 @@
         <a href="#">Services</a>
         <a href="#">Contact</a>
         <button class="login-btn">Log in</button>
-        <!-- <button class="signup-btn">Sign up</button> -->
+        <button class="signup-btn">Sign up</button>
       </nav>
     </header>
 
@@ -37,14 +37,14 @@
             <span class="icon">
               <ion-icon name="mail"></ion-icon>
             </span>
-            <input type="email" required>
+            <input type="email" id="login-email" required>
             <label>Email</label>
           </div>
           <div class="input-box">
             <span class="icon">
               <ion-icon name="lock-closed"></ion-icon>
             </span>
-            <input type="password" required>
+            <input type="password" id="login-password" required>
             <label>Password</label>
           </div>
           <div class="remember-forgot">
@@ -55,40 +55,40 @@
           <div class="login-register">
             <p>Don't have an account?
               <img width="5px" />
-              <a href="#" class="register-link">Register</a>
+              <a href="#" class="register-link">SignUp</a>
             </p>
           </div>
         </form>
       </div>
 
       <div class="form-box register">
-        <h2>Registration</h2>
+        <h2>SignUp</h2>
         <form action="#">
           <div class="input-box">
             <span class="icon">
               <ion-icon name="person"></ion-icon>
             </span>
-            <input type="text" required>
-            <label>Username</label>
+            <input type="text" id="register-username" required>
+            <label>Name</label>
           </div>
           <div class="input-box">
             <span class="icon">
               <ion-icon name="mail"></ion-icon>
             </span>
-            <input type="email" required>
+            <input type="email" id="register-email" required>
             <label>Email</label>
           </div>
           <div class="input-box">
             <span class="icon">
               <ion-icon name="lock-closed"></ion-icon>
             </span>
-            <input type="password" required>
+            <input type="password" id="register-password" required>
             <label>Password</label>
           </div>
           <div class="remember-forgot">
             <label><input type="checkbox">I agree to the terms & conditions</label>
           </div>
-          <button type="submit" class="submit-btn">Register</button>
+          <button type="submit" class="submit-btn">SignUp</button>
           <div class="login-register">
             <p>Already have an account?
               <img width="5px" />
@@ -99,9 +99,24 @@
       </div>
     </div>
 
+    <button id="toggleAssistant" class="voice-assistant-button">
+      <svg class="voice-assistant-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+      </svg>
+      <div class="button-text">
+        <span>Voice Assistant</span>
+        <span>Sumita</span>
+      </div>
+    </button>
+
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="voice.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=CxIpWqq7"></script>
   </body>
 
 </html>
