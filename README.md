@@ -1,21 +1,6 @@
-<p align="center"><img align="center" width="280" src="./images/logo-dark.png"/></p>
-<p align="center"><img align="center" width="280" src="./images/logo-light.png#gh-light-mode-only"/></p>
-<h3 align="center">A Simple and User-Friendly Platform for Seamless Authentication</h3>
-<hr>
+# Login & SignUp Website
 
-<div align="center">
-<img src="https://custom-icon-badges.demolab.com/github/stars/amit712singhal/Login-SignUp-Website?label=Stars&labelColor=302d41&color=add8e6&logoColor=white&logo=star&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/issues/amit712singhal/Login-SignUp-Website?label=Issues&labelColor=302d41&color=90ee90&logoColor=white&logo=issue&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/issues-pr/amit712singhal/Login-SignUp-Website?&label=Pull%20requests&labelColor=302d41&color=ffb6c1&logoColor=white&logo=git-pull-request&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/forks/amit712singhal/Login-SignUp-Website?&label=forks&labelColor=302d41&color=ffa07a&logoColor=white&logo=fork&style=for-the-badge"  />
-<img src="https://custom-icon-badges.demolab.com/github/contributors/amit712singhal/Login-SignUp-Website?label=Contributors&labelColor=302d41&color=e6e6fa&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/license/amit712singhal/login-signup-website?label=LICENSE&labelColor=302d41&color=f0e68c&logoColor=white&logo=people&style=for-the-badge"/>
-<img src="https://custom-icon-badges.demolab.com/github/last-commit/amit712singhal/Login-SignUp-Website?label=last%20commit&labelColor=302d41&color=ffefd5&logoColor=white&logo=people&style=for-the-badge"/>
-</div>
-
-## About this Project
-
-Login & SignUp Website is a streamlined platform designed to facilitate easy user authentication. With a focus on simplicity and security, this project provides a user-friendly interface for creating accounts and logging in. Ideal for integrating into larger web applications or for standalone use.
+A streamlined platform designed to facilitate easy user authentication. With a focus on simplicity and security, this project provides a user-friendly interface for creating accounts and logging in. Ideal for integrating into larger web applications or for standalone use.
 
 Check out the live demo [here](https://amit712singhal.github.io/Login-SignUp-Website/).
 
@@ -26,8 +11,6 @@ Check out the live demo [here](https://amit712singhal.github.io/Login-SignUp-Web
 <details>
      <summary><h2>Table of Contents</h2></summary>
 
-- [About this Project](#about-this-project)
-- [Preview](#preview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
